@@ -37,7 +37,7 @@ PerplexityXPC runs a Windows Service bound exclusively to `127.0.0.1:47777`, pro
 
 ### Core
 - **Windows Service broker** - Kestrel HTTP/WebSocket server bound to `127.0.0.1:47777` only; never accessible from other machines
-- **System tray application** - `Ctrl+Shift+P` global hotkey opens a floating query popup with dark/light theme support
+- **System tray application** - `Ctrl+Alt+P` global hotkey opens a floating query popup with dark/light theme support
 - **Explorer context menu** - Right-click any text file or folder to send it directly to Perplexity
 - **MCP server manager** - Start, stop, and restart MCP servers via JSON-RPC 2.0 over stdio; auto-restart on crash
 
@@ -196,7 +196,7 @@ Terminal showing the ASCII art banner, version number, and first step of the wiz
 Step 2 of the wizard prompting for the Perplexity API key with format validation and test option.
 
 [Screenshot: System Tray App with Query Popup]
-The floating query popup triggered by Ctrl+Shift+P, showing a dark-mode response from Perplexity.
+The floating query popup triggered by Ctrl+Alt+P, showing a dark-mode response from Perplexity.
 
 [Screenshot: PowerShell Module xpc -h Output]
 Terminal output of the module help listing all 44 functions grouped by category.
@@ -212,7 +212,7 @@ Terminal output of the module help listing all 44 functions grouped by category.
 |                                                                       |
 |  +-----------------+    Named Pipe    +---------------------------+   |
 |  | System Tray App |<--------------->|     Windows Service        |   |
-|  | (Ctrl+Shift+P)  |                 |     (PerplexityXPC)        |   |
+|  | (Ctrl+Alt+P)  |                 |     (PerplexityXPC)        |   |
 |  +-----------------+                 |                           |   |
 |                                      |   HTTP: 127.0.0.1:47777   |   |
 |  +-----------------+    HTTP/SSE     |   WS:   ws://127.0.0.1:   |   |

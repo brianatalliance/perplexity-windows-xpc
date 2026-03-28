@@ -106,7 +106,7 @@ public sealed class CompletePage : UserControl, IWizardPage
             ScrollBars  = RichTextBoxScrollBars.None,
         };
         _rtbCommands.Text =
-            "  Press Ctrl+Shift+P    - Open the PerplexityXPC query popup\r\n" +
+            "  Press Ctrl+Alt+P    - Open the PerplexityXPC query popup\r\n" +
             "  pplx \"question\"      - Query Perplexity from PowerShell\r\n" +
             "  xpc -h               - Full command reference";
 
