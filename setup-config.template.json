@@ -1,0 +1,61 @@
+{
+  "_comment": "PerplexityXPC Setup Configuration Template v1.4.0",
+  "_usage": ".\\ Summon-Aunties.ps1 -Silent -ConfigFile .\\setup-config.json",
+  "apiKey": "",
+  "port": 47777,
+  "installPath": "C:\\Program Files\\PerplexityXPC",
+  "autoStart": true,
+  "addToStartup": true,
+  "addFirewall": true,
+  "addContextMenu": true,
+  "mcpServers": [
+    {
+      "_comment": "Remove or set disabled=true to skip a server",
+      "name": "filesystem",
+      "disabled": false,
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\Default\\Documents"],
+      "env": {}
+    },
+    {
+      "name": "github",
+      "disabled": true,
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": ""
+      }
+    },
+    {
+      "name": "brave-search",
+      "disabled": true,
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": ""
+      }
+    },
+    {
+      "name": "sqlite",
+      "disabled": true,
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sqlite", "C:\\Users\\Default\\AppData\\Local\\PerplexityXPC\\data.db"],
+      "env": {}
+    },
+    {
+      "name": "memory",
+      "disabled": true,
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "env": {}
+    }
+  ],
+  "integrations": {
+    "powerShellModule": true,
+    "powerShellProfile": true,
+    "windowsTerminal": false,
+    "vsCode": false,
+    "explorerContextMenu": true,
+    "cloudflareTunnel": false
+  }
+}
