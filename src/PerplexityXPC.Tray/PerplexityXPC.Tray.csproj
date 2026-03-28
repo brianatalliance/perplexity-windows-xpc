@@ -49,6 +49,8 @@
   <ItemGroup>
     <!-- Windows Service Controller (ServiceController.Start / Stop) -->
     <PackageReference Include="System.ServiceProcess.ServiceController" Version="8.0.0" />
+    <!-- WMI queries for memory/CPU metrics in DashboardWidget -->
+    <PackageReference Include="System.Management" Version="8.0.0" />
   </ItemGroup>
 
 </Project>
