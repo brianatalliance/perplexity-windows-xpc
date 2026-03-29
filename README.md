@@ -159,8 +159,8 @@ For managed environments where Defender policy is controlled centrally:
 ## Quick Start
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/perplexity-windows.git
-cd perplexity-windows
+git clone https://github.com/brianatalliance/perplexity-windows-xpc.git
+cd perplexity-windows-xpc
 .\Summon-Aunties.ps1
 ```
 
