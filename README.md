@@ -425,9 +425,9 @@ Quick summary:
 
 ## Author
 
-**Brian Vicente** — Network Coordinator & Cybersecurity Admin, [Alliance for Empowerment](https://www.allianceforempowerment.org)
+**Brian Vicente** — Network Coordinator & Cybersecurity Admin
 
-GitHub: [@brianatalliance](https://github.com/brianatalliance)
+Built with [Perplexity Computer](https://computer.perplexity.ai)
 
 ## License
 
@@ -437,6 +437,9 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 
-- [Perplexity AI](https://www.perplexity.ai) for the Sonar API and models that power this integration
-- [Model Context Protocol](https://modelcontextprotocol.io) for the open MCP standard that enables local tool integration
+- [Perplexity AI](https://www.perplexity.ai/) for the Sonar API and models that power this integration
+- [PowerShell](https://learn.microsoft.com/en-us/powershell/) for the scripting layer, installer, and module that make this accessible to Windows administrators
+- [The Peripheral](https://en.wikipedia.org/wiki/The_Peripheral_(TV_series)) for creative inspiration behind the Summon-Aunties setup wizard
+- [.NET 8](https://dotnet.microsoft.com/download/dotnet/8.0) for the cross-platform runtime and self-contained executable support
+- [Model Context Protocol](https://modelcontextprotocol.io/) for the open standard enabling local tool integration with AI models
 - [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/) for the zero-config remote access infrastructure
